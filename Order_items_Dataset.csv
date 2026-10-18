@@ -1,0 +1,422 @@
+order_item_id,order_id,product_id,coffee_type,quantity,amount
+1,1,103,Cappuccino,2,340
+2,1,106,Flat White,4,760
+3,1,105,Mocha,4,800
+4,2,101,Espresso,1,120
+5,2,101,Espresso,2,240
+6,2,105,Mocha,1,200
+7,3,105,Mocha,5,1000
+8,3,102,Latte,4,720
+9,4,101,Espresso,3,360
+10,5,107,Cold Brew,1,160
+11,5,103,Cappuccino,2,340
+12,6,102,Latte,1,180
+13,6,103,Cappuccino,5,850
+14,6,107,Cold Brew,4,640
+15,7,106,Flat White,2,380
+16,7,102,Latte,2,360
+17,7,107,Cold Brew,2,320
+18,8,101,Espresso,2,240
+19,8,106,Flat White,3,570
+20,9,107,Cold Brew,2,320
+21,9,103,Cappuccino,2,340
+22,10,101,Espresso,4,480
+23,10,107,Cold Brew,1,160
+24,10,107,Cold Brew,4,640
+25,11,102,Latte,4,720
+26,12,103,Cappuccino,2,340
+27,12,102,Latte,1,180
+28,13,102,Latte,4,720
+29,13,103,Cappuccino,3,510
+30,13,107,Cold Brew,1,160
+31,14,103,Cappuccino,5,850
+32,14,104,Americano,5,750
+33,15,101,Espresso,1,120
+34,15,103,Cappuccino,2,340
+35,16,103,Cappuccino,1,170
+36,16,101,Espresso,5,600
+37,16,104,Americano,3,450
+38,17,107,Cold Brew,3,480
+39,17,104,Americano,5,750
+40,17,105,Mocha,1,200
+41,18,105,Mocha,2,400
+42,18,103,Cappuccino,1,170
+43,19,104,Americano,1,150
+44,19,105,Mocha,5,1000
+45,19,106,Flat White,2,380
+46,20,104,Americano,1,150
+47,20,106,Flat White,3,570
+48,21,103,Cappuccino,1,170
+49,21,106,Flat White,3,570
+50,21,105,Mocha,3,600
+51,22,104,Americano,3,450
+52,22,104,Americano,3,450
+53,22,105,Mocha,2,400
+54,23,104,Americano,4,600
+55,24,106,Flat White,2,380
+56,24,105,Mocha,5,1000
+57,24,103,Cappuccino,4,680
+58,25,107,Cold Brew,1,160
+59,25,103,Cappuccino,3,510
+60,25,102,Latte,4,720
+61,26,105,Mocha,3,600
+62,26,104,Americano,4,600
+63,26,104,Americano,2,300
+64,27,104,Americano,2,300
+65,27,106,Flat White,1,190
+66,27,103,Cappuccino,5,850
+67,28,106,Flat White,5,950
+68,28,103,Cappuccino,1,170
+69,28,107,Cold Brew,2,320
+70,29,103,Cappuccino,2,340
+71,29,107,Cold Brew,2,320
+72,29,102,Latte,1,180
+73,30,102,Latte,4,720
+74,31,107,Cold Brew,1,160
+75,31,104,Americano,4,600
+76,31,106,Flat White,5,950
+77,32,106,Flat White,4,760
+78,33,104,Americano,2,300
+79,33,102,Latte,1,180
+80,34,107,Cold Brew,4,640
+81,35,102,Latte,5,900
+82,36,101,Espresso,5,600
+83,36,102,Latte,1,180
+84,37,102,Latte,4,720
+85,37,106,Flat White,5,950
+86,38,105,Mocha,3,600
+87,38,107,Cold Brew,4,640
+88,38,105,Mocha,5,1000
+89,39,107,Cold Brew,5,800
+90,39,104,Americano,2,300
+91,40,107,Cold Brew,4,640
+92,40,104,Americano,3,450
+93,40,107,Cold Brew,2,320
+94,41,103,Cappuccino,5,850
+95,41,104,Americano,2,300
+96,41,103,Cappuccino,4,680
+97,42,106,Flat White,3,570
+98,43,103,Cappuccino,3,510
+99,44,105,Mocha,1,200
+100,44,102,Latte,2,360
+101,45,104,Americano,2,300
+102,46,102,Latte,1,180
+103,46,104,Americano,4,600
+104,46,103,Cappuccino,5,850
+105,47,104,Americano,1,150
+106,47,102,Latte,4,720
+107,48,107,Cold Brew,5,800
+108,48,106,Flat White,1,190
+109,49,104,Americano,4,600
+110,49,101,Espresso,3,360
+111,49,103,Cappuccino,4,680
+112,50,105,Mocha,5,1000
+113,50,107,Cold Brew,5,800
+114,51,104,Americano,2,300
+115,52,104,Americano,4,600
+116,52,101,Espresso,4,480
+117,53,106,Flat White,4,760
+118,53,106,Flat White,2,380
+119,54,102,Latte,5,900
+120,54,105,Mocha,1,200
+121,55,105,Mocha,5,1000
+122,55,106,Flat White,1,190
+123,56,106,Flat White,4,760
+124,57,107,Cold Brew,4,640
+125,58,101,Espresso,3,360
+126,59,103,Cappuccino,2,340
+127,59,104,Americano,3,450
+128,60,107,Cold Brew,4,640
+129,60,103,Cappuccino,4,680
+130,61,107,Cold Brew,1,160
+131,61,104,Americano,1,150
+132,62,105,Mocha,1,200
+133,62,103,Cappuccino,2,340
+134,62,106,Flat White,1,190
+135,63,101,Espresso,1,120
+136,63,102,Latte,2,360
+137,63,107,Cold Brew,1,160
+138,64,102,Latte,2,360
+139,64,102,Latte,4,720
+140,64,106,Flat White,1,190
+141,65,102,Latte,4,720
+142,65,106,Flat White,3,570
+143,65,107,Cold Brew,3,480
+144,66,105,Mocha,5,1000
+145,67,106,Flat White,1,190
+146,67,107,Cold Brew,2,320
+147,67,103,Cappuccino,1,170
+148,68,101,Espresso,3,360
+149,68,105,Mocha,4,800
+150,68,104,Americano,2,300
+151,69,105,Mocha,2,400
+152,70,106,Flat White,3,570
+153,71,105,Mocha,1,200
+154,71,107,Cold Brew,5,800
+155,71,107,Cold Brew,1,160
+156,72,105,Mocha,4,800
+157,72,106,Flat White,3,570
+158,73,105,Mocha,3,600
+159,74,107,Cold Brew,4,640
+160,75,101,Espresso,4,480
+161,75,103,Cappuccino,4,680
+162,76,102,Latte,4,720
+163,76,102,Latte,5,900
+164,76,106,Flat White,3,570
+165,77,107,Cold Brew,5,800
+166,77,107,Cold Brew,4,640
+167,77,104,Americano,4,600
+168,78,105,Mocha,3,600
+169,78,103,Cappuccino,2,340
+170,78,107,Cold Brew,1,160
+171,79,104,Americano,2,300
+172,79,107,Cold Brew,4,640
+173,80,105,Mocha,4,800
+174,80,103,Cappuccino,1,170
+175,80,104,Americano,3,450
+176,81,104,Americano,2,300
+177,82,107,Cold Brew,3,480
+178,82,103,Cappuccino,3,510
+179,83,106,Flat White,3,570
+180,83,105,Mocha,1,200
+181,83,105,Mocha,2,400
+182,84,102,Latte,4,720
+183,85,105,Mocha,2,400
+184,85,106,Flat White,4,760
+185,86,106,Flat White,4,760
+186,86,104,Americano,1,150
+187,86,101,Espresso,3,360
+188,87,104,Americano,2,300
+189,88,106,Flat White,5,950
+190,88,103,Cappuccino,4,680
+191,89,105,Mocha,3,600
+192,89,104,Americano,5,750
+193,89,103,Cappuccino,3,510
+194,90,104,Americano,3,450
+195,90,103,Cappuccino,3,510
+196,90,102,Latte,1,180
+197,91,102,Latte,3,540
+198,91,101,Espresso,5,600
+199,91,107,Cold Brew,2,320
+200,92,102,Latte,4,720
+201,93,106,Flat White,5,950
+202,93,107,Cold Brew,5,800
+203,94,103,Cappuccino,1,170
+204,94,107,Cold Brew,2,320
+205,94,103,Cappuccino,2,340
+206,95,102,Latte,3,540
+207,95,101,Espresso,5,600
+208,96,103,Cappuccino,1,170
+209,97,105,Mocha,3,600
+210,98,102,Latte,4,720
+211,98,101,Espresso,1,120
+212,98,105,Mocha,3,600
+213,99,104,Americano,4,600
+214,99,103,Cappuccino,2,340
+215,100,103,Cappuccino,4,680
+216,101,107,Cold Brew,1,160
+217,102,104,Americano,1,150
+218,102,105,Mocha,1,200
+219,103,102,Latte,5,900
+220,104,101,Espresso,2,240
+221,104,101,Espresso,5,600
+222,105,105,Mocha,5,1000
+223,105,107,Cold Brew,5,800
+224,106,107,Cold Brew,5,800
+225,107,104,Americano,4,600
+226,107,103,Cappuccino,5,850
+227,108,103,Cappuccino,5,850
+228,108,105,Mocha,1,200
+229,109,106,Flat White,1,190
+230,109,107,Cold Brew,2,320
+231,109,106,Flat White,2,380
+232,110,106,Flat White,1,190
+233,110,102,Latte,2,360
+234,111,105,Mocha,1,200
+235,112,101,Espresso,4,480
+236,113,106,Flat White,5,950
+237,113,104,Americano,3,450
+238,114,102,Latte,3,540
+239,115,103,Cappuccino,4,680
+240,115,101,Espresso,2,240
+241,115,103,Cappuccino,5,850
+242,116,107,Cold Brew,2,320
+243,116,104,Americano,1,150
+244,116,105,Mocha,2,400
+245,117,102,Latte,3,540
+246,117,107,Cold Brew,2,320
+247,117,101,Espresso,1,120
+248,118,107,Cold Brew,3,480
+249,119,106,Flat White,5,950
+250,119,103,Cappuccino,4,680
+251,119,101,Espresso,4,480
+252,120,103,Cappuccino,4,680
+253,120,103,Cappuccino,5,850
+254,120,105,Mocha,4,800
+255,121,101,Espresso,5,600
+256,121,101,Espresso,4,480
+257,122,103,Cappuccino,5,850
+258,122,103,Cappuccino,1,170
+259,122,101,Espresso,2,240
+260,123,107,Cold Brew,5,800
+261,123,105,Mocha,1,200
+262,123,107,Cold Brew,3,480
+263,124,101,Espresso,2,240
+264,124,104,Americano,5,750
+265,124,106,Flat White,4,760
+266,125,102,Latte,5,900
+267,125,104,Americano,4,600
+268,126,104,Americano,3,450
+269,127,103,Cappuccino,3,510
+270,127,106,Flat White,1,190
+271,128,103,Cappuccino,4,680
+272,129,104,Americano,3,450
+273,129,106,Flat White,4,760
+274,129,107,Cold Brew,5,800
+275,130,104,Americano,1,150
+276,131,103,Cappuccino,3,510
+277,131,101,Espresso,4,480
+278,132,107,Cold Brew,1,160
+279,132,106,Flat White,5,950
+280,132,104,Americano,4,600
+281,133,102,Latte,5,900
+282,134,105,Mocha,4,800
+283,134,106,Flat White,4,760
+284,135,102,Latte,3,540
+285,136,102,Latte,3,540
+286,136,104,Americano,4,600
+287,136,101,Espresso,1,120
+288,137,105,Mocha,2,400
+289,137,106,Flat White,2,380
+290,137,103,Cappuccino,5,850
+291,138,105,Mocha,4,800
+292,139,102,Latte,1,180
+293,140,101,Espresso,2,240
+294,140,104,Americano,3,450
+295,141,106,Flat White,3,570
+296,141,104,Americano,4,600
+297,141,104,Americano,2,300
+298,142,105,Mocha,2,400
+299,142,104,Americano,2,300
+300,143,105,Mocha,2,400
+301,143,107,Cold Brew,1,160
+302,143,103,Cappuccino,4,680
+303,144,107,Cold Brew,5,800
+304,144,103,Cappuccino,1,170
+305,145,106,Flat White,3,570
+306,145,107,Cold Brew,5,800
+307,146,106,Flat White,4,760
+308,146,107,Cold Brew,2,320
+309,146,104,Americano,5,750
+310,147,103,Cappuccino,3,510
+311,147,105,Mocha,5,1000
+312,148,104,Americano,3,450
+313,148,107,Cold Brew,2,320
+314,149,102,Latte,5,900
+315,149,104,Americano,2,300
+316,149,107,Cold Brew,4,640
+317,150,103,Cappuccino,4,680
+318,151,107,Cold Brew,4,640
+319,151,104,Americano,2,300
+320,151,104,Americano,1,150
+321,152,105,Mocha,5,1000
+322,153,107,Cold Brew,1,160
+323,153,107,Cold Brew,4,640
+324,154,105,Mocha,4,800
+325,155,106,Flat White,2,380
+326,156,107,Cold Brew,2,320
+327,156,101,Espresso,4,480
+328,157,103,Cappuccino,5,850
+329,157,106,Flat White,4,760
+330,158,101,Espresso,3,360
+331,158,107,Cold Brew,5,800
+332,158,104,Americano,3,450
+333,159,106,Flat White,4,760
+334,159,107,Cold Brew,5,800
+335,159,101,Espresso,5,600
+336,160,102,Latte,3,540
+337,161,106,Flat White,1,190
+338,162,101,Espresso,1,120
+339,162,104,Americano,2,300
+340,163,103,Cappuccino,1,170
+341,163,101,Espresso,3,360
+342,163,107,Cold Brew,1,160
+343,164,103,Cappuccino,3,510
+344,164,104,Americano,2,300
+345,165,105,Mocha,4,800
+346,166,106,Flat White,2,380
+347,166,102,Latte,2,360
+348,166,101,Espresso,5,600
+349,167,105,Mocha,2,400
+350,167,104,Americano,5,750
+351,168,102,Latte,4,720
+352,169,103,Cappuccino,4,680
+353,169,103,Cappuccino,1,170
+354,169,107,Cold Brew,4,640
+355,170,106,Flat White,5,950
+356,170,102,Latte,1,180
+357,171,103,Cappuccino,5,850
+358,171,103,Cappuccino,4,680
+359,172,103,Cappuccino,4,680
+360,172,107,Cold Brew,3,480
+361,172,102,Latte,4,720
+362,173,101,Espresso,2,240
+363,173,104,Americano,5,750
+364,174,105,Mocha,3,600
+365,174,106,Flat White,3,570
+366,175,107,Cold Brew,4,640
+367,176,101,Espresso,5,600
+368,176,107,Cold Brew,1,160
+369,177,106,Flat White,4,760
+370,177,107,Cold Brew,3,480
+371,177,107,Cold Brew,2,320
+372,178,107,Cold Brew,3,480
+373,178,102,Latte,2,360
+374,178,105,Mocha,3,600
+375,179,107,Cold Brew,2,320
+376,179,106,Flat White,1,190
+377,179,106,Flat White,1,190
+378,180,107,Cold Brew,4,640
+379,180,101,Espresso,5,600
+380,181,106,Flat White,2,380
+381,181,101,Espresso,3,360
+382,182,106,Flat White,4,760
+383,182,102,Latte,2,360
+384,183,107,Cold Brew,5,800
+385,184,105,Mocha,5,1000
+386,184,103,Cappuccino,2,340
+387,185,107,Cold Brew,4,640
+388,185,107,Cold Brew,3,480
+389,186,107,Cold Brew,3,480
+390,186,107,Cold Brew,1,160
+391,186,104,Americano,1,150
+392,187,107,Cold Brew,2,320
+393,188,106,Flat White,4,760
+394,188,107,Cold Brew,5,800
+395,188,103,Cappuccino,1,170
+396,189,101,Espresso,3,360
+397,189,105,Mocha,1,200
+398,190,103,Cappuccino,3,510
+399,190,105,Mocha,4,800
+400,191,103,Cappuccino,1,170
+401,191,106,Flat White,2,380
+402,191,104,Americano,1,150
+403,192,105,Mocha,3,600
+404,192,105,Mocha,2,400
+405,192,106,Flat White,1,190
+406,193,107,Cold Brew,4,640
+407,193,106,Flat White,3,570
+408,193,106,Flat White,4,760
+409,194,102,Latte,1,180
+410,195,103,Cappuccino,4,680
+411,196,101,Espresso,2,240
+412,197,102,Latte,4,720
+413,197,104,Americano,3,450
+414,197,106,Flat White,5,950
+415,198,105,Mocha,2,400
+416,198,104,Americano,1,150
+417,199,105,Mocha,4,800
+418,199,103,Cappuccino,1,170
+419,200,103,Cappuccino,2,340
+420,200,104,Americano,4,600
+421,200,102,Latte,3,540
